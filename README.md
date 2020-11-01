@@ -1,10 +1,15 @@
-# streak_manager
+# Streak Manager
 
 A simple productivity tool that helps you keep a "streak" going by tracking your progress.
 
+Streak Manager aims to be:
+    - Universal
+    - Portable
+    - Extensible
+
 ## 
 
-## tech stack
+## Tech Stack
 
 This is a CLI tool written in Python; however, it is designed to be both universal and portable, this is due to the fact that it is dependant on a `st_data.json` file which acts as the back-end that this tool functions on. It's structure looks somewhat like this:
 
