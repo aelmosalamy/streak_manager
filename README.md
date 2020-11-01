@@ -1,0 +1,31 @@
+# streak_manager
+
+A simple productivity tool that helps you keep a "streak" going by tracking your progress.
+
+## 
+
+## tech stack
+
+This is a CLI tool written in Python; however, it is designed to be both universal and portable, this is due to the fact that it is dependant on a `st_data.json` file which acts as the back-end that this tool functions on. It's structure looks somewhat like this:
+
+```json
+{
+  "user": {},
+  "streaks": [
+    {
+      "name": "coding challenges",
+      "type": "daily",
+      "data": {}
+    },
+    {
+      "name": "100 pushups",
+      "type": "goal",
+      "data": {}
+    }
+  ]
+}
+```
+
+This file is read everytime the script runs and is updated whenever an operation is perfomed by the script, this file can be synced through any cloud service e.g. Dropbox, iCloud and be used across different clients which I am planning to introduce gradually with the help of contributors, with this CLI Python Client acting as the basis for what a client should be able to do and what features should it offer, the means with which the client offers these features doesn't matter, It can be anything from a web-based drag & drop client to a speech-driven interaction through a smart watch, the only constraint is: All of them should produce the exact same `st_data.json` file to allow compatibility between all clients.
+
+Keep in mind the `st_data.json` format is still being developed with plans for different types of streaks and ways to implement them, e.g. Some goals will require logging everyday and will count consecutive days of work, some will be a 1-time milestone that you just need to achieve once, some will be track amount of something you have done (hours spent coding, books read in a month etc..), there is alot of potential and the scope can grow dramatically with plans of implementing deadlines, calendar integration etc..
