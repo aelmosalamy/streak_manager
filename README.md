@@ -3,9 +3,10 @@
 A simple productivity tool that helps you keep a "streak" going by tracking your progress.
 
 Streak Manager aims to be:
-    - Universal
-    - Portable
-    - Extensible
+
+- Universal
+- Portable
+- Extensible
 
 ## 
 
