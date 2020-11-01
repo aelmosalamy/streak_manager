@@ -41,7 +41,7 @@ def parse_input(text):
 # CMDLET FUNCTIONS #
 ####################
 def cmdlet_show_info():
-    print("streak_manager (sm) is a script developed by <adham elmosalamy> to track streaks and help you stay focused.")
+    print("streak_manager (sm) is an API developed by <@aelmosalmy> to track streaks and help you stay focused.")
 
 def cmdlet_show_help():
     print("you communicate with sm through typing commands, some commands are short, some are lengthy. sm understands " + str(len(COMMANDS.keys())) + " commands currently, they are: " + " | ".join(COMMANDS.keys()))
