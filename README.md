@@ -2,6 +2,8 @@
 
 A simple productivity tool that helps you keep a "streak" going by tracking your progress.
 
+*NOTE: This is a personal project and I don't want to give any false promises regarding accepting pull requests, responding to issues, etc..; feel free to fork this project, I will only work on this project in my free time.*
+
 Streak Manager aims to be:
 
 - Universal
