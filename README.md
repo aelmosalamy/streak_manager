@@ -8,7 +8,11 @@ Streak Manager aims to be:
 - Portable
 - Extensible
 
-## 
+Currently Streak Manager needs:
+
+- API Documentation
+- Completing the CLI client according to the outlined API
+- Code refactoring for different commands, cmdlets and utility functions
 
 ## Tech Stack
 
